@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 25% 97%;
+    --foreground: 0 0% 4%;
+    --card: 60 25% 97%;
+    --card-foreground: 0 0% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 4%;
+    --primary: 0 0% 4%;
+    --primary-foreground: 60 25% 97%;
+    --secondary: 50 12% 92%;
+    --secondary-foreground: 0 0% 4%;
+    --muted: 50 12% 92%;
+    --muted-foreground: 0 0% 38%;
+    --accent: 0 68% 42%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 38%;
+    --destructive-foreground: 60 25% 97%;
+    --border: 50 10% 85%;
+    --input: 50 10% 78%;
+    --ring: 0 68% 42%;
+    --radius: 0rem;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4, h5 {
+    @apply font-display tracking-tight text-ink;
+    font-optical-sizing: auto;
+  }
+  ::selection {
+    background: #B22222;
+    color: #FAFAF7;
+  }
+}
+
+@layer utilities {
+  .container-edge { @apply mx-auto w-full max-w-[1440px] px-5 md:px-8 lg:px-12; }
+  .rule { @apply border-t border-ink/15; }
+  .eyebrow { @apply font-mono text-[11px] uppercase tracking-[0.15em] text-ink/70; }
+  .display { font-feature-settings: "ss01"; letter-spacing: -0.02em; }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.3s ease;
+  }
+  .link-underline:hover { background-size: 100% 1px; }
+  .marquee { animation: marquee 40s linear infinite; }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
