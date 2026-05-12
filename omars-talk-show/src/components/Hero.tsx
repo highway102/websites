@@ -49,6 +49,19 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">
+              <a
+                href={SITE.social.spotify}
+                target="_blank"
+                rel="noreferrer"
+                className="group inline-flex items-center gap-3 bg-paper text-ink px-6 py-4 text-[12px] uppercase tracking-[0.2em] font-semibold hover:bg-signal hover:text-paper transition-colors"
+              >
+                <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-[#1DB954] text-white shrink-0">
+                  <svg viewBox="0 0 24 24" className="w-3 h-3" fill="currentColor" aria-hidden>
+                    <path d="M12 0a12 12 0 1 0 12 12A12 12 0 0 0 12 0Zm5.503 17.315a.748.748 0 0 1-1.03.247c-2.82-1.722-6.368-2.112-10.546-1.159a.75.75 0 0 1-.333-1.463c4.573-1.043 8.49-.6 11.661 1.336a.75.75 0 0 1 .248 1.039Zm1.471-3.272a.935.935 0 0 1-1.286.308c-3.227-1.984-8.147-2.559-11.964-1.399a.936.936 0 1 1-.544-1.791c4.36-1.324 9.781-.685 13.488 1.594a.936.936 0 0 1 .306 1.288Zm.126-3.409c-3.87-2.298-10.256-2.51-13.95-1.386a1.123 1.123 0 1 1-.654-2.149c4.24-1.289 11.297-1.04 15.749 1.602a1.123 1.123 0 1 1-1.145 1.933Z" />
+                  </svg>
+                </span>
+                Listen on Spotify
+              </a>
               <Link
                 to="/work"
                 className="group inline-flex items-center gap-3 bg-signal text-paper px-6 py-4 text-[12px] uppercase tracking-[0.2em] font-semibold hover:bg-paper hover:text-ink transition-colors"

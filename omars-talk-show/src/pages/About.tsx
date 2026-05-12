@@ -53,10 +53,13 @@ export default function About() {
               <dd className="text-ink text-sm">{SITE.show}</dd>
             </div>
             <div>
-              <dt className="text-ink/40 mb-1">Platform</dt>
-              <dd>
-                <a href={SITE.channelUrl} target="_blank" rel="noreferrer" className="text-ink text-sm link-underline">
+              <dt className="text-ink/40 mb-1">Platforms</dt>
+              <dd className="space-y-1.5">
+                <a href={SITE.channelUrl} target="_blank" rel="noreferrer" className="block text-ink text-sm link-underline">
                   YouTube {SITE.channelHandle}
+                </a>
+                <a href={SITE.social.spotify} target="_blank" rel="noreferrer" className="block text-ink text-sm link-underline">
+                  Spotify Podcast
                 </a>
               </dd>
             </div>

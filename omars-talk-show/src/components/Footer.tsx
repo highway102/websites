@@ -2,12 +2,15 @@ import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 import { SITE } from '@/lib/content'
 
-function isPlaceholder(s: string) { return !s || !s.trim() || s.trim().startsWith('[PLACEHOLDER') }
+function isPlaceholder(s: string) {
+  return !s || !s.trim() || s.trim().startsWith('[PLACEHOLDER')
+}
 
 export default function Footer() {
   const year = new Date().getFullYear()
   const socials = [
     { label: 'YouTube', href: SITE.social.youtube },
+    { label: 'Spotify', href: SITE.social.spotify },
     { label: 'X / Twitter', href: SITE.social.x },
     { label: 'Instagram', href: SITE.social.instagram },
     { label: 'LinkedIn', href: SITE.social.linkedin },
@@ -15,12 +18,15 @@ export default function Footer() {
 
   return (
     <footer className="mt-24 md:mt-40 bg-ink text-paper">
-      {/* Big CTA strip */}
       <div className="container-edge py-20 md:py-28 border-b border-paper/10">
         <p className="eyebrow text-paper/50 mb-6">Get in touch</p>
         <Link to="/contact" className="group block max-w-6xl">
           <h2 className="display font-bold text-4xl sm:text-5xl md:text-7xl lg:text-[96px] leading-[1.0] tracking-[-0.02em] text-paper font-display">
-            Send a <span className="italic font-normal underline decoration-paper/30 underline-offset-[0.12em] group-hover:text-signal group-hover:decoration-signal transition-colors">note</span> — sources, leads, and conversations welcome.
+            Send a{' '}
+            <span className="italic font-normal underline decoration-paper/30 underline-offset-[0.12em] group-hover:text-signal group-hover:decoration-signal transition-colors">
+              note
+            </span>{' '}
+            - sources, leads, and conversations welcome.
           </h2>
           {!isPlaceholder(SITE.email) && (
             <div className="mt-8 inline-flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/70 group-hover:text-signal transition-colors">
@@ -31,7 +37,6 @@ export default function Footer() {
         </Link>
       </div>
 
-      {/* Link grid */}
       <div className="container-edge py-14 md:py-20 grid grid-cols-2 md:grid-cols-12 gap-10">
         <div className="col-span-2 md:col-span-5">
           <div className="inline-flex items-center gap-3 mb-4">
@@ -40,9 +45,7 @@ export default function Footer() {
             </span>
             <span className="font-display text-2xl font-semibold">{SITE.networkName}</span>
           </div>
-          <p className="font-display font-semibold text-2xl md:text-3xl tracking-[-0.02em] text-paper">
-            {SITE.name}
-          </p>
+          <p className="font-display font-semibold text-2xl md:text-3xl tracking-[-0.02em] text-paper">{SITE.name}</p>
           <p className="mt-2 text-paper/60 text-sm leading-relaxed max-w-sm font-sans">
             {SITE.role} · {SITE.location}
           </p>
@@ -62,8 +65,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             {socials.map((s) => (
               <li key={s.label}>
-                <a href={s.href} target="_blank" rel="noreferrer"
-                   className="inline-flex items-center gap-2 text-paper/80 hover:text-signal group">
+                <a href={s.href} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-paper/80 hover:text-signal group">
                   {s.label}
                   <ArrowUpRight size={12} strokeWidth={2} className="opacity-60 group-hover:opacity-100" />
                 </a>
@@ -73,7 +75,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-paper/10">
         <div className="container-edge py-6 flex flex-col sm:flex-row justify-between gap-2 text-[11px] uppercase tracking-[0.18em] text-paper/40 font-mono">
           <span>© {year} {SITE.name}. All rights reserved.</span>

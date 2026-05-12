@@ -52,6 +52,7 @@ export const SITE = {
 
   social: {
     youtube: "https://www.youtube.com/@omarstalkshow",
+    spotify: "https://open.spotify.com/show/0Xlip1NOkE4OuM3KgYBVOc?si=l9gj6LLGQReqCrqCUr58iw",
     x: "https://x.com/OmarsTalkShow",
     instagram: "",
     linkedin: "",

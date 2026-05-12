@@ -2,11 +2,14 @@ import ContactForm from '@/components/ContactForm'
 import { SITE } from '@/lib/content'
 import { ArrowUpRight } from 'lucide-react'
 
-function isPlaceholder(s: string) { return !s || !s.trim() || s.trim().startsWith('[PLACEHOLDER') }
+function isPlaceholder(s: string) {
+  return !s || !s.trim() || s.trim().startsWith('[PLACEHOLDER')
+}
 
 export default function Contact() {
   const socialLinks = [
-    { label: `YouTube — ${SITE.channelHandle}`, href: SITE.social.youtube },
+    { label: `YouTube - ${SITE.channelHandle}`, href: SITE.social.youtube },
+    { label: 'Spotify Podcast', href: SITE.social.spotify },
     { label: 'X / Twitter', href: SITE.social.x },
     { label: 'Instagram', href: SITE.social.instagram },
     { label: 'LinkedIn', href: SITE.social.linkedin },
@@ -21,7 +24,7 @@ export default function Contact() {
           </div>
           <div className="md:col-span-9">
             <h1 className="display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[88px] leading-[1.05] tracking-[-0.025em] text-ink max-w-5xl font-display">
-              Send a note for interviews, speaking, sourced tips, or commissioned analysis — I read every message and respond within two to three business days.
+              Send a note for interviews, speaking, sourced tips, or commissioned analysis - I read every message and respond within two to three business days.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-ink/60 max-w-xl">
               Direct email below · or use the form
@@ -39,7 +42,10 @@ export default function Contact() {
           {!isPlaceholder(SITE.email) && (
             <div>
               <p className="eyebrow mb-4">Direct</p>
-              <a href={`mailto:${SITE.email}`} className="group inline-flex items-baseline gap-3 font-display font-semibold text-2xl md:text-3xl text-ink tracking-[-0.02em] break-all">
+              <a
+                href={`mailto:${SITE.email}`}
+                className="group inline-flex items-baseline gap-3 font-display font-semibold text-2xl md:text-3xl text-ink tracking-[-0.02em] break-all"
+              >
                 <span className="link-underline">{SITE.email}</span>
                 <ArrowUpRight size={20} strokeWidth={2} className="shrink-0 opacity-60 group-hover:opacity-100" />
               </a>
@@ -56,8 +62,12 @@ export default function Contact() {
             <ul className="space-y-2">
               {socialLinks.map((s) => (
                 <li key={s.label}>
-                  <a href={s.href} target="_blank" rel="noreferrer"
-                     className="group inline-flex items-center gap-2 text-ink font-display font-semibold text-lg tracking-tight">
+                  <a
+                    href={s.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group inline-flex items-center gap-2 text-ink font-display font-semibold text-lg tracking-tight"
+                  >
                     <span className="link-underline">{s.label}</span>
                     <ArrowUpRight size={14} strokeWidth={2} className="opacity-60 group-hover:opacity-100" />
                   </a>
@@ -69,8 +79,8 @@ export default function Contact() {
           <div className="rule pt-10">
             <p className="eyebrow mb-3">Response</p>
             <p className="text-ink/70 text-sm leading-relaxed font-sans">
-              Every message is read. Responses within 2–3 business days. For
-              time-sensitive press, mark the subject line "Urgent."
+              Every message is read. Responses within 2-3 business days. For time-sensitive press, mark the subject line
+              "Urgent."
             </p>
           </div>
         </aside>
