@@ -48,7 +48,7 @@ export default function Hero() {
                   <ScrollText size={15} strokeWidth={2} />
                   <span className="font-mono text-[10px] uppercase tracking-[0.2em]">Perspective</span>
                 </div>
-                <p className="text-sm text-paper/88 leading-relaxed">Fact-based reporting shaped by a producer, researcher, writer, and commentator's eye for what actually matters.</p>
+                <p className="text-sm text-paper/88 leading-relaxed">Fact-based reporting shaped by an independent commentator's reporting instinct, close reading, and focus on what actually matters.</p>
               </div>
             </div>
 
@@ -104,11 +104,11 @@ export default function Hero() {
 
                     <div className="min-w-0 max-w-none">
                       <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-signal mb-3">
-                        Producer. Researcher. Writer. Commentator.
+                        Independent Analysis. Daily Briefings. On-Camera Commentary.
                       </p>
                       <div className="mt-5 text-paper/72 text-sm md:text-[16px] leading-relaxed max-w-[34ch]">
                         <p>
-                          He delivers daily updates on politics, business, and the biggest stories moving through New York and the wider world, with a distinct point of view rooted in facts.
+                          He delivers daily updates on politics, business, and the biggest stories moving through New York and the wider world, with a direct point of view rooted in facts rather than resume-building mythology.
                         </p>
                       </div>
                     </div>

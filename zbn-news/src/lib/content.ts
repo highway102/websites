@@ -28,7 +28,7 @@ export const SITE = {
   aboutLong: [
     "ZBN News is a network-style evolution of the independent commentary work already happening around Omar's Talk Show. The aim is not to sand down the edge. It is to present that edge with more institutional weight: cleaner sections, stronger editorial hierarchy, and a visual system that feels closer to a modern digital bureau than a creator homepage.",
     "The network is based in New York City and is built around independent, fact-based analysis. Omar brings the New York lens, particularly around corporate movement, fiscal pressure, and city-level political fallout. Felmon broadens the desk with fast-turn political analysis and a national commentary cadence suited to headline-driven coverage.",
-    "The result is a site built to scale. ZBN News introduces a network identity that can support more shows, more recurring beats, and a stronger sense of editorial continuity over time.",
+    "The result is a site built to scale. ZBN News introduces a network identity that can support more shows, more recurring beats, and a stronger sense of editorial continuity over time without overstating the background behind the hosts.",
   ],
 
   beats: [
@@ -40,7 +40,7 @@ export const SITE = {
 
   credentials: [
     "Independent, fact-based editorial positioning with a network-style presentation",
-    "Years of commentary, analysis, and on-camera reporting experience across the desk",
+    "Active commentary, analysis, and on-camera delivery presented with a clearer editorial frame",
     "Launch structure built around embedded video briefings and reporting-led coverage",
     "Current featured reporting sourced from Omar's active YouTube output",
     "Designed as a more formal web front door for long-term network growth",
@@ -97,8 +97,8 @@ export const NETWORK_PILLARS = [
   },
   {
     label: "Experienced",
-    title: "Built by seasoned commentators",
-    body: "The network presents itself as a serious desk shaped by years of analysis, on-camera delivery, and repeated coverage of high-stakes stories.",
+    title: "Built around active coverage",
+    body: "The network presents itself as a serious desk shaped by ongoing analysis, on-camera delivery, and repeated coverage of high-stakes stories without leaning on inflated industry claims.",
   },
   {
     label: "Daily Briefing",
@@ -115,8 +115,8 @@ export const DESK_NOTES = [
   },
   {
     label: "Current Feed",
-    value: "ZBN Transition",
-    body: "The current embedded lineup still runs through Omar's existing YouTube channel while the network brand transitions into place.",
+    value: "Latest Channel Sync",
+    body: "The embedded lineup is synced to Omar's current YouTube uploads while the broader ZBN network identity continues to take shape.",
   },
   {
     label: "Editorial Standard",
@@ -138,93 +138,93 @@ const CTA =
 
 export const VIDEOS: Video[] = [
   {
+    id: "KsC2QKA4kgo",
+    host: "Omar",
+    title: "Governor Newsom ERUPTS After In-N-Out Burger OFFICIALLY Leaves California After 77 Years",
+    date: "May 10, 2026",
+    summary: [
+      "A legacy-brand departure story framed around California's business climate, political fallout, and what it means when an institution with decades of roots decides to leave anyway.",
+      "As a ZBN lead briefing, it works because it turns a familiar consumer brand into a broader argument about confidence, regulation, and why once-stable business loyalties start to break. " + CTA,
+    ],
+  },
+  {
+    id: "KCtgIjmJYz4",
+    host: "Omar",
+    title: "Mamdani GOES NUTS After Secret Plan To PUNISH Companies That Leave NYC Gets EXPOSE",
+    date: "May 10, 2026",
+    summary: [
+      "A New York business-and-politics story centered on retaliation, corporate exits, and the pressure city leadership faces when confidence keeps slipping.",
+      "This fits naturally into the ZBN catalog because it treats anti-exit policy as a real power story instead of a niche policy footnote.",
+    ],
+  },
+  {
+    id: "aksyGjgkr-U",
+    host: "Omar",
+    title: "Mayor Mamdani ERUPTS As Amazon Fresh SHUTS DOWN All NYC Locations For Good!",
+    date: "May 10, 2026",
+    summary: [
+      "A retail-withdrawal story that uses Amazon Fresh's exit to spotlight neighborhood impact, city confidence, and the meaning of a full-market pullback.",
+      "As a ZBN supporting story, it keeps the network anchored in its strongest lane: New York, corporate retrenchment, and what those decisions signal beyond the press release.",
+    ],
+  },
+  {
+    id: "aB77NgLg8-c",
+    host: "Omar",
+    title: "Cathie Wood FINALLY Speaks On Why ARK Invest OFFICIALLY Left NYC For Florida - BRUTAL!",
+    date: "May 10, 2026",
+    summary: [
+      "A finance-and-relocation story that ties a recognizable investment brand to the larger contest between New York and Florida for capital, talent, and executive loyalty.",
+      "For ZBN, it plays as strong archive material because it uses one firm's move to illustrate a larger competitiveness argument.",
+    ],
+  },
+  {
+    id: "DEJmL-yXAyc",
+    host: "Omar",
+    title: "NEW YORK Just Lost Its BIGGEST Taxpayer - The Amount Will Make You SICK",
+    date: "May 9, 2026",
+    summary: [
+      "A fiscal-stress briefing built around tax exposure and the kind of high-end departure that can reshape a city's revenue picture in a hurry.",
+      "In the ZBN archive, it works as a clean public-finance story with obvious stakes for budgets, politics, and long-run confidence.",
+    ],
+  },
+  {
+    id: "WwtR8c8Bf4s",
+    host: "Omar",
+    title: "Los Angeles IN SHOCK As The \"NEXT MAMDANI\" Is Set To Become Mayor",
+    date: "May 8, 2026",
+    summary: [
+      "A crossover city-politics story that broadens the desk beyond New York while keeping the same focus on ideological leadership, urban pressure points, and public reaction.",
+      "This stays valuable in the recent catalog because it extends the editorial lane without losing the station's appetite for city-level power stories.",
+    ],
+  },
+  {
+    id: "FCtEIuToHcY",
+    host: "Omar",
+    title: "Mamdani IN SHOCK After New Yorkers FLEE Over $11 Billion ILLEGAL IMMIGRANT Bill",
+    date: "May 8, 2026",
+    summary: [
+      "A migration-and-city-cost story that frames public frustration through fiscal burden, residency decisions, and who absorbs the consequences.",
+      "For ZBN, it reinforces the station's strongest lane around New York strain, policy backlash, and the politics of who stays versus who leaves.",
+    ],
+  },
+  {
     id: "_wWuYJ0F5YE",
     host: "Omar",
     title: "California Governor SHOCKED After Mark Zuckerberg OFFICIALLY Flees To $170M Miami Mansion!",
-    date: "May 6, 2026",
+    date: "May 7, 2026",
     summary: [
       "A high-profile wealth-migration story that uses Zuckerberg's move to examine prestige, power, and why elite figures increasingly choose Florida over legacy blue-state strongholds.",
-      "As a ZBN lead briefing, it works because it combines a globally recognizable name with the network's recurring themes: exit decisions, political consequences, and what those moves say about where power wants to live. " + CTA,
+      "It remains useful catalog material because it expands ZBN's geography while keeping the same money-movement thesis intact.",
     ],
   },
   {
     id: "M1L5LmF7h0Q",
     host: "Omar",
     title: "Governor of New Jersey ERUPTS After ExxonMobil LEAVES For Texas After 144 Years!",
-    date: "May 6, 2026",
+    date: "May 7, 2026",
     summary: [
       "A legacy-corporate relocation story with a strong historical hook: a 144-year relationship breaking apart under the pressure of modern cost, tax, and strategic incentives.",
-      "This fits naturally into the ZBN catalog because it treats a major corporate departure as a regional political story, not just a business memo.",
-    ],
-  },
-  {
-    id: "s_KGFlj-gn8",
-    host: "Omar",
-    title: "JPMorgan Just Announced MASSIVE NYC Office Reduction - Jamie Dimon's Statement Is BRUTAL",
-    date: "May 6, 2026",
-    summary: [
-      "A straight New York business-and-power story built around office reduction, executive signaling, and what a major Wall Street institution is really saying about the city through its footprint decisions.",
-      "As a ZBN supporting story, it keeps the network anchored in its strongest lane: New York, institutional retreat, and what the fine print means in real terms.",
-    ],
-  },
-  {
-    id: "XCYGsvF17IM",
-    host: "Omar",
-    title: "Mamdani IN SHOCK After Ken Griffin SCRAPS NYC Tower To DOUBLE DOWN On $2.5 Billion Miami HQ",
-    date: "May 6, 2026",
-    summary: [
-      "A major relocation-and-capital story where one billionaire's real-estate decision is used to tell a larger narrative about confidence, taxation, and the competitive pull of Miami over New York.",
-      "For ZBN, it remains strong archive material because it frames a single real-estate move as evidence of a deeper confidence problem in the city.",
-    ],
-  },
-  {
-    id: "DWrzweyNNIQ",
-    host: "Omar",
-    title: "Mamdani HUMILIATED After Trump DESTROYS His Tax Plan - BRUTAL",
-    date: "May 5, 2026",
-    summary: [
-      "A sharp political-reaction segment built around tax policy, public humiliation, and the way a city-level idea can become instantly national once a major political opponent enters the frame.",
-      "In the ZBN archive, it plays as a clean political hit connected to a real fiscal fight rather than empty outrage.",
-    ],
-  },
-  {
-    id: "rXCFm6VU7ow",
-    host: "Omar",
-    title: "Mamdani LOSES IT After Hochul OFFICIALLY REJECTS $5.4B NYC Bailout For Good!",
-    date: "May 5, 2026",
-    summary: [
-      "A city-budget and governor-versus-mayor clash that gives the network a very clean public-interest frame: money, leverage, and who gets left exposed when a rescue plan dies.",
-      "This stays valuable in the recent catalog because it feels like a real accountability story with clear stakes for the city.",
-    ],
-  },
-  {
-    id: "OSnIRrnyxRI",
-    host: "Omar",
-    title: "Mayor Mamdani HUMILIATED As His Own Governor BLOCKS $1 Billion Wall Street Tax",
-    date: "May 4, 2026",
-    summary: [
-      "A tax-and-intra-party conflict story that pairs neatly with the bailout coverage: a mayor boxed in not only by outside critics, but by resistance from within his own political camp.",
-      "For ZBN, it reinforces the station's strongest lane around New York power struggles, Wall Street taxation, and institutional pressure points.",
-    ],
-  },
-  {
-    id: "-FPUNwuZNh8",
-    host: "Omar",
-    title: "Sergey Brin FINALLY Reveals Why He Left California - What He Said Changes EVERYTHING",
-    date: "May 4, 2026",
-    summary: [
-      "A billionaire relocation story that broadens the desk beyond New York while staying inside the same editorial theme: capital flight, state competitiveness, and the language elites use when they leave.",
-      "It remains useful catalog material because it expands ZBN's geography while keeping the same money-movement thesis intact.",
-    ],
-  },
-  {
-    id: "DrnDyPfxaAw",
-    host: "Omar",
-    title: "Hedge Fund CEOs ERUPT After Mamdani's $1 Billion New Tax SLAMS Wall Street",
-    date: "May 2, 2026",
-    summary: [
-      "A clear Wall Street backlash story centered on taxation, elite reaction, and the financial sector's willingness to push back when city politics threatens its margins.",
-      "In the ZBN archive, it works as a direct collision between politics and finance with obvious implications for the city's tax base.",
+      "In the ZBN archive, it works as a direct corporate-exit story with obvious regional and political consequences.",
     ],
   },
 ]

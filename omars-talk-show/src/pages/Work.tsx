@@ -8,14 +8,14 @@ export default function Work() {
       <section className="container-edge pt-36 md:pt-44 pb-12 md:pb-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-3">
-            <p className="eyebrow">Work · Archive</p>
+            <p className="eyebrow">Work · Latest</p>
           </div>
           <div className="md:col-span-9">
             <h1 className="display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[88px] leading-[1.05] tracking-[-0.025em] text-ink max-w-5xl font-display">
-              Every episode of {SITE.show}, catalogued and ready to watch — long-form economic analysis and rapid-response commentary.
+              The latest episodes from {SITE.show} - recent reporting and rapid-response commentary from the channel.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-ink/60 max-w-xl">
-              Click any thumbnail to play in place · read the summary if you can't listen
+              Click any thumbnail to play in place · recent uploads, newest first
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Work() {
                 </div>
 
                 <div className="lg:col-span-6">
-                  <p className="eyebrow mb-3">Summary</p>
+                  <p className="eyebrow mb-3">Episode Details</p>
                   {v.summary ? (
                     <div className="space-y-5 text-[15.5px] md:text-base leading-[1.65] text-ink/85 font-sans">
                       {v.summary.map((para, pi) => (
@@ -47,7 +47,16 @@ export default function Work() {
                       ))}
                     </div>
                   ) : (
-                    <p className="text-sm text-ink/50 italic">Summary coming soon.</p>
+                    <div className="space-y-4 text-sm md:text-base text-ink/75">
+                      <div className="flex flex-wrap gap-3 font-mono text-[11px] uppercase tracking-[0.18em] text-ink/60">
+                        {v.date && <span>{v.date}</span>}
+                        {v.views && <span>{v.views}</span>}
+                        {v.duration && <span>{v.duration}</span>}
+                      </div>
+                      <p>
+                        Watch the full episode here or jump to YouTube for comments, recommendations, and the rest of the channel archive.
+                      </p>
+                    </div>
                   )}
                 </div>
               </li>
@@ -57,13 +66,20 @@ export default function Work() {
       </section>
 
       <section className="container-edge py-24 md:py-32">
-        <a href={SITE.channelUrl} target="_blank" rel="noreferrer"
-           className="group flex flex-col md:flex-row items-start md:items-end justify-between gap-6 border-t border-ink/15 pt-10">
+        <a
+          href={SITE.channelUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="group flex flex-col md:flex-row items-start md:items-end justify-between gap-6 border-t border-ink/15 pt-10"
+        >
           <h2 className="display font-bold text-3xl md:text-5xl lg:text-6xl leading-[1.1] tracking-[-0.02em] text-ink max-w-4xl font-display">
-            Watch the full archive, subscribe for new episodes, and join the conversation in the comments on YouTube.
+            Watch the full channel archive, subscribe for new episodes, and join the conversation on YouTube.
           </h2>
-          <ArrowUpRight size={64} strokeWidth={1.5}
-                        className="shrink-0 text-ink group-hover:text-signal transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+          <ArrowUpRight
+            size={64}
+            strokeWidth={1.5}
+            className="shrink-0 text-ink group-hover:text-signal transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+          />
         </a>
       </section>
     </>

@@ -29,7 +29,7 @@ export const SITE = {
     "Felmon Talks News is an independent commentary platform focused on political flashpoints, media narratives, party fractures, and the stories driving the national conversation.",
 
   aboutLong: [
-    "Felmon Talks News is built around direct commentary on current events, politics, and major headlines. The channel is hosted by Felmon, an independent researcher with a deep background in progressive media and political analysis, and the site is designed to match that straight-ahead editorial voice.",
+    "Felmon Talks News is built around direct commentary on current events, politics, and major headlines. The channel is hosted by Felmon, an independent commentator and researcher focused on political analysis, and the site is designed to match that straight-ahead editorial voice.",
     "The coverage leans into governors, media spin, party fractures, legal battles, and economic pressure points. The format stays fast, pointed, and readable, with each episode framed as a clear argument rather than a recycled cable segment.",
     "This website works as a sharper front door for that work: a stronger red-and-black identity, a cleaner archive, and a place where new viewers can understand the channel before they ever hit subscribe.",
   ],
@@ -43,8 +43,8 @@ export const SITE = {
 
   credentials: [
     "YouTube channel joined March 31, 2026",
-    "1K subscribers and 244,225 views as checked on April 27, 2026",
-    "Independent researcher with a progressive media background",
+    "Independent commentary channel focused on politics, media narratives, and headline analysis",
+    "Based in Chicago, Illinois",
     "Linked to the active Felmon Talks News YouTube channel",
   ],
 
@@ -65,84 +65,84 @@ export type Video = {
 
 const CTA = "Subscribe to Felmon Talks News on YouTube for more breakdowns like this and keep the red desk in your feed."
 
-// Latest uploads pulled from the provided YouTube channel on April 27, 2026.
+// Latest uploads pulled from the Felmon Talks News YouTube channel feed on May 11, 2026.
 export const VIDEOS: Video[] = [
   {
-    id: "AUYYo2Sd60Q",
-    title: "Mamdani LOSES IT on LIVE TV After His OWN Democrats REBUKE Him",
-    date: "Apr 27, 2026",
+    id: "mWPrvnCHocY",
+    title: "Ilhan Omar PANICS as DOJ Drops BRUTAL NEWS on Her Citizenship Fraud Investigation",
+    date: "May 10, 2026",
     summary: [
-      "This episode is framed around a live television moment where party unity visibly cracks in public. The title suggests a fast-turn breakdown of political pressure, internal rebuke, and what happens when a headline narrative stops holding together on camera.",
-      "For the site, it reads as a signature Felmon Talks News piece: direct, reactive, and built around the exact moment a public figure loses control of the story. " + CTA,
+      "This episode is framed as a legal-scrutiny story, connecting financial disclosure questions, a Minnesota fraud case, and a new federal spotlight around Ilhan Omar.",
+      "For the site, it works as a high-pressure accountability piece focused on records, public confrontation, and what happens when multiple investigations converge at once. " + CTA,
     ],
   },
   {
-    id: "TQo_aNkiGLI",
-    title: "New York's Governor Just ADMITTED What Everyone Already Knew — The State Is LOSING Businesses!",
-    date: "Apr 26, 2026",
+    id: "zogtWxBj3oE",
+    title: "Newsom CAUGHT Over $180 BILLION Fraud As His Presidential Run COLLAPSES",
+    date: "May 9, 2026",
     summary: [
-      "This segment is positioned as a credibility and governance story, using the governor's own admission as the hinge point for a broader argument about business flight, public perception, and state-level decline.",
-      "The on-site framing treats it as a commentary piece about the gap between official messaging and what voters or employers are already seeing in real time. " + CTA,
+      "This segment turns state audits, federal indictments, and public spending failures into a broader argument about leadership breakdown in California.",
+      "On the site, it reads as a sharp governance story about vanished funds, institutional oversight, and the political cost of large-scale fraud claims landing during a national rise. " + CTA,
     ],
   },
   {
-    id: "icTQW67jzk0",
-    title: "Democrat Governor Explains Energy Bills With DONUTS… 37,000 Fans BOOED Her at a Baseball Game",
-    date: "Apr 25, 2026",
+    id: "ldXNThDh7zU",
+    title: "Chicago Mayor Brandon Johnson COLLAPSES to 6% Approval... Officially the WORST Mayor in US History",
+    date: "May 8, 2026",
     summary: [
-      "This episode reads like a backlash story driven by tone-deaf messaging and instant public response. The contrast between a simplified explanation and a hostile crowd reaction gives the segment its energy.",
-      "For the archive, it works as an example of how Felmon turns a strange political clip into a broader story about anger, messaging failure, and the cost of underestimating the audience. " + CTA,
+      "This episode is built around a dramatic collapse in approval, using polling, city budget pressure, and open revolt from local leadership to frame the story.",
+      "For the archive, it functions as a Chicago-centered breakdown of governing failure, voter backlash, and how fast a mayor can lose political ground. " + CTA,
     ],
   },
   {
-    id: "39r5Eu2B-Ew",
-    title: "MSNBC Gets BUSTED Using a FAKE AI Photo on Live TV — Joe Rogan DESTROYS Them",
-    date: "Apr 24, 2026",
+    id: "ZLxoud_pucI",
+    title: "CNN Host TURNS on Democrats and Admits Democrats are in FULL COLLAPSE on LIVE TV",
+    date: "May 7, 2026",
     summary: [
-      "This segment is framed around media credibility, live production failure, and the risk of using synthetic visuals in a trust-starved news environment. The Joe Rogan angle adds a second layer of commentary on how fast those mistakes travel.",
-      "On the site, the summary positions it as a clean media-accountability story about narrative control, broadcast sloppiness, and why audiences are increasingly suspicious of what they are shown. " + CTA,
+      "This segment uses live-TV polling analysis and party infighting to argue that Democratic leadership is facing a deeper credibility collapse with independents and its own base.",
+      "On the site, it plays as a media-and-politics crossover story where on-air data becomes the launch point for a larger argument about party weakness. " + CTA,
     ],
   },
   {
-    id: "CD2MByRatIM",
-    title: "Mayor Mamdani Just Launched a Plan to Tax People Based on RACE — The DOJ Just Responded",
-    date: "Apr 23, 2026",
+    id: "0w-BSq7DhKc",
+    title: "$600 MILLION in California Fraud Just Got EXPOSED as 447 Fake Companies Get SHUT DOWN",
+    date: "May 6, 2026",
     summary: [
-      "This episode appears to center on race, public policy, and federal response, using a high-voltage local controversy to open a wider argument about legality, optics, and political risk.",
-      "For the archive, the writeup presents it as a story about how quickly city-level politics can become national material once the Department of Justice enters the frame. " + CTA,
+      "This episode is framed around enforcement and fallout, using the shutdown of hundreds of fake companies to show the scale of alleged fraud in California.",
+      "For the archive, it works as a clean accountability story about public money, enforcement action, and the wider trust problem that follows fraud headlines. " + CTA,
     ],
   },
   {
-    id: "r94j-m7Zh48",
-    title: "Bill Maher Just EXPOSED the One Thing That Will DESTROY Democrats in 2028",
-    date: "Apr 21, 2026",
+    id: "QJXEzMA1Lqo",
+    title: "Mamdani PANICS After Own Party TURNS on Him Over $5.4 BILLION Disaster",
+    date: "May 5, 2026",
     summary: [
-      "This segment is positioned as a forward-looking party fracture story, built around the idea that an uncomfortable truth can surface from an unlikely messenger and hit harder because of where it came from.",
-      "On the site, it reads as commentary about coalition weakness, strategic denial, and the issues that quietly become election-year liabilities before campaigns are ready to name them. " + CTA,
+      "This segment is positioned as a party-fracture story, with budget pressure and Democratic infighting driving the central conflict around Mamdani.",
+      "On the site, it reads as a fast-turn local crisis story that scales into a wider argument about fiscal pressure, coalition strain, and political exposure. " + CTA,
     ],
   },
   {
-    id: "CzArQVtb12E",
-    title: "California's Governor HUMILIATES Himself in Clip Viewed 40 MILLION Times",
-    date: "Apr 20, 2026",
+    id: "lLdjm39HrmE",
+    title: "Mamdani's OWN PARTY TURNS on Him as Bronx Councilman DECLARES WAR",
+    date: "May 4, 2026",
     summary: [
-      "This episode is built around a viral clip and the political damage that follows when a governor becomes the story for the wrong reason. The title suggests embarrassment, scale, and the speed of public mockery in the attention economy.",
-      "For the archive, it functions as a concise story about image collapse, digital amplification, and how one clip can reset a politician's standing with viewers almost overnight. " + CTA,
+      "This episode leans into open political conflict, using an internal Democratic clash in New York to frame the story as a public power struggle.",
+      "For the archive, it reads as commentary on coalition breakdown, local escalation, and the way intraparty fights become headline events in real time. " + CTA,
     ],
   },
   {
-    id: "Q7b4zB06DJQ",
-    title: "NYC Is COLLAPSING as the City's Own Democrats TURN on Mayor Mamdani Over $5.4 BILLION Tax Crisis",
-    date: "Apr 18, 2026",
+    id: "V99tNqD3kx4",
+    title: "Billionaire KICKS Democrat OUT of His Mansion and Says He's DONE With the Party Forever",
+    date: "May 3, 2026",
     summary: [
-      "This segment reads as a local-collapse story where budget pressure, internal rebellion, and city politics all stack on top of each other at once. The scale of the tax number gives the episode its urgency.",
-      "On the site, it is framed as a clean example of the channel's core lane: party infighting, public consequences, and a headline that says more about institutional stress than any press release will. " + CTA,
+      "This segment is framed as a donor-break story, using a high-profile rupture to explore frustration with party direction and political identity.",
+      "On the site, it works as a commentary piece about elite disillusionment, public symbolism, and the spectacle that follows when political alliances break in public. " + CTA,
     ],
   },
 ]
 
 // Press / outlets that have featured, cited, or published your work.
-// These are legitimacy signals — replace with real outlets only.
+// These are legitimacy signals - replace with real outlets only.
 // If you don't have press yet, either delete the Press page link from Nav.tsx,
 // or leave these placeholders and update as coverage happens.
 export const PRESS: Array<{ name: string; url?: string }> = [
@@ -161,12 +161,12 @@ export type PullQuote = { quote: string; attribution: string }
 export const QUOTES: PullQuote[] = [
   {
     quote:
-      "[PLACEHOLDER: A short pull quote about your work from a viewer, journalist, or collaborator — 15 to 30 words.]",
+      "[PLACEHOLDER: A short pull quote about your work from a viewer, journalist, or collaborator - 15 to 30 words.]",
     attribution: "[PLACEHOLDER: Name, Title, Outlet]",
   },
   {
     quote:
-      "[PLACEHOLDER: A second pull quote — keep the tone editorial, not marketing-copy.]",
+      "[PLACEHOLDER: A second pull quote - keep the tone editorial, not marketing-copy.]",
     attribution: "[PLACEHOLDER: Name, Title, Outlet]",
   },
 ]

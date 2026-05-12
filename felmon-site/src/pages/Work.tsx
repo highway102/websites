@@ -9,14 +9,14 @@ export default function Work() {
       <section className="container-edge pt-36 md:pt-44 pb-12 md:pb-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-3">
-            <p className="eyebrow">Work · Archive</p>
+            <p className="eyebrow">Work · Latest</p>
           </div>
           <div className="md:col-span-9">
             <h1 className="display font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-[88px] leading-[1.0] tracking-[-0.04em] text-ink max-w-5xl">
-              Every episode of {SITE.show}, catalogued and ready to watch — long-form political analysis and rapid-response commentary.
+              The latest uploads from {SITE.show}, ready to watch - long-form political analysis and rapid-response commentary.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-ink/60 max-w-xl">
-              Click any thumbnail to play in place · read the summary if you can't listen
+              Click any thumbnail to play in place · newest YouTube uploads first
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function Work() {
           className="group flex flex-col md:flex-row items-start md:items-end justify-between gap-6 border-t border-ink/15 pt-10"
         >
           <h2 className="display font-semibold text-3xl md:text-5xl lg:text-6xl leading-[1.05] tracking-[-0.03em] text-ink max-w-4xl">
-            Watch the full archive, subscribe for new episodes, and join the conversation in the comments on YouTube.
+            Watch more on YouTube, subscribe for new episodes, and join the conversation in the comments.
           </h2>
           <ArrowUpRight
             size={64}

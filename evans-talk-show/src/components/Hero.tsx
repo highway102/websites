@@ -6,7 +6,6 @@ export default function Hero() {
   return (
     <section className="relative min-h-[100svh] bg-navy text-paper overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(255,59,48,0.22),transparent_28%),radial-gradient(circle_at_82%_26%,rgba(255,59,48,0.14),transparent_24%),linear-gradient(180deg,rgba(0,0,0,0.15),rgba(0,0,0,0.75))]" />
-      {/* subtle grid backdrop */}
       <div
         aria-hidden
         className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -52,7 +51,7 @@ export default function Hero() {
                   <Radio size={15} strokeWidth={2} />
                   <span className="font-mono text-[10px] uppercase tracking-[0.2em]">Format</span>
                 </div>
-                <p className="text-sm text-paper/88 leading-relaxed">Fast-turn commentary with a news-desk feel.</p>
+                <p className="text-sm text-paper/88 leading-relaxed">Fast-turn commentary with a live desk feel.</p>
               </div>
               <div className="border border-paper/12 bg-paper/[0.04] px-4 py-4">
                 <div className="flex items-center gap-2 text-signal mb-3">
@@ -90,7 +89,7 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_22%_18%,rgba(255,59,48,0.16),transparent_30%),linear-gradient(180deg,rgba(0,0,0,0.05),rgba(0,0,0,0.42))]" />
                   <img
                     src="/channel-portrait.png"
-                    alt={`${SITE.name} — ${SITE.role}`}
+                    alt={`${SITE.name} - ${SITE.role}`}
                     className="w-full h-full object-cover object-[center_18%]"
                   />
                 </div>
