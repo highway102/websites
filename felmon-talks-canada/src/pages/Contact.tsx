@@ -26,7 +26,7 @@ export default function Contact() {
               Send a note about interviews, stories, collaborations, or Canadian news conversations tied to {SITE.show}.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/60 max-w-xl">
-              Direct contact and channel links for Felmon Talks Canada
+              Direct contact and channel links for Julian Talks Canada
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function Contact() {
           <div className="rule pt-10">
             <p className="eyebrow mb-3">Note</p>
             <p className="text-paper/70 text-sm leading-relaxed font-sans">
-              Felmon Talks Canada is focused on Canadian politics, economic pressure, public policy, and the major national stories shaping the conversation across the country.
+              Julian Talks Canada is focused on Canadian politics, economic pressure, public policy, and the major national stories shaping the conversation across the country.
             </p>
           </div>
         </aside>

@@ -35,7 +35,7 @@ export default function Home() {
                 Latest Episodes
               </p>
               <h2 className="display font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.08] tracking-[-0.02em] text-paper max-w-4xl font-display">
-                Recent uploads from Felmon Talks Canada covering Canadian politics, affordability, housing, trade, and the pressure points shaping life across the country.
+                Recent uploads from Julian Talks Canada covering Canadian politics, affordability, housing, trade, and the pressure points shaping life across the country.
               </h2>
             </div>
             <Link

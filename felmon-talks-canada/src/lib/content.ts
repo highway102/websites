@@ -5,20 +5,20 @@ export function isPlaceholder(s: string) {
 }
 
 export const SITE = {
-  name: 'Felmon Nicholas',
-  firstName: 'Felmon',
+  name: 'Julian Nicholas',
+  firstName: 'Julian',
   role: 'Political Analyst & Commentator',
-  show: 'Felmon Talks Canada',
+  show: 'Julian Talks Canada',
   networkInitials: 'FTC',
-  networkName: 'Felmon Talks Canada',
-  channelHandle: '@FelmonTalksCanada',
-  channelUrl: 'https://www.youtube.com/@FelmonTalksCanada',
-  email: 'felmontalks@gmail.com',
+  networkName: 'Julian Talks Canada',
+  channelHandle: '@JulianTalksCanada',
+  channelUrl: 'https://www.youtube.com/@JulianTalksCanada',
+  email: 'juliantalks@gmail.com',
   location: 'Toronto, Ontario',
   joinedDate: 'Joined Mar 29, 2026',
   totalVideos: 'Recent uploads refreshed May 11, 2026',
-  avatarImage: '/felmon-avatar.png',
-  heroImage: '/felmon-headshot.png',
+  avatarImage: '/julian-avatar.png',
+  heroImage: '/julian-headshot.png',
 
   tagline:
     'Political analysis and commentary focused on the forces shaping Canada, from affordability and housing to trade, institutions, and national leadership.',
@@ -29,17 +29,17 @@ export const SITE = {
   missionEyebrow: 'Canadian News',
   missionHeadline: 'Canada. Politics. Commentary.',
   missionBody:
-    'Felmon Nicholas is a Toronto-based political analyst and commentator covering the biggest stories shaping Canada, with reporting and perspective built for viewers who want more than a headline.',
+    'Julian Nicholas is a Toronto-based political analyst and commentator covering the biggest stories shaping Canada, with reporting and perspective built for viewers who want more than a headline.',
   missionBlurb:
-    'Felmon Talks Canada breaks down Canadian politics, economic stress, housing, trade pressure, energy, and the decisions inside government that shape everyday life across the country.',
+    'Julian Talks Canada breaks down Canadian politics, economic stress, housing, trade pressure, energy, and the decisions inside government that shape everyday life across the country.',
 
   aboutShort:
-    'Felmon Nicholas is the host of Felmon Talks Canada, a Toronto-based YouTube platform focused on Canadian politics, policy, and public-interest commentary.',
+    'Julian Nicholas is the host of Julian Talks Canada, a Toronto-based YouTube platform focused on Canadian politics, policy, and public-interest commentary.',
 
   aboutLong: [
-    "I'm Felmon Nicholas, a political analyst and commentator based in Toronto, Ontario, and the host of Felmon Talks Canada. I cover the Canadian stories that shape public life: economic pressure, political power, institutional decisions, and the national debates that too often get flattened into talking points.",
+    "I'm Julian Nicholas, a political analyst and commentator based in Toronto, Ontario, and the host of Julian Talks Canada. I cover the Canadian stories that shape public life: economic pressure, political power, institutional decisions, and the national debates that too often get flattened into talking points.",
     'The show publishes long-form commentary and rapid-response analysis on YouTube, following the facts behind the headlines and translating complex political and economic developments into clear, direct reporting for a broad Canadian audience.',
-    'Felmon Talks Canada is built around Canadian news first. From affordability and housing to trade, energy, federal leadership, and provincial flashpoints, the goal is to connect policy decisions to their real consequences for people across the country.',
+    'Julian Talks Canada is built around Canadian news first. From affordability and housing to trade, energy, federal leadership, and provincial flashpoints, the goal is to connect policy decisions to their real consequences for people across the country.',
   ],
 
   beats: [
@@ -50,13 +50,13 @@ export const SITE = {
   ],
 
   credentials: [
-    'Host, Felmon Talks Canada - YouTube',
+    'Host, Julian Talks Canada - YouTube',
     'Toronto-based Canadian political commentary',
     'Recent public uploads refreshed from the YouTube channel feed on May 11, 2026',
   ],
 
   social: {
-    youtube: 'https://www.youtube.com/@FelmonTalksCanada',
+    youtube: 'https://www.youtube.com/@JulianTalksCanada',
     x: '',
     instagram: '',
     linkedin: '',
@@ -78,7 +78,7 @@ type RawVideo = {
 
 function buildVideoSummary(video: RawVideo) {
   return [
-    `Public YouTube listing: "${video.title}" appears on the Felmon Talks Canada channel page.`,
+    `Public YouTube listing: "${video.title}" appears on the Julian Talks Canada channel page.`,
     `Published ${video.date}.`,
   ]
 }
