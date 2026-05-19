@@ -1,0 +1,378 @@
+:root {
+  --ink: #10171d;
+  --ink-soft: #3d4a52;
+  --muted: #7a858d;
+  --paper: #f2f5f6;
+  --white: #ffffff;
+  --dark: #071016;
+  --dark-2: #101d25;
+  --cyan: #00a8c8;
+  --cyan-soft: #8ee7ff;
+  --red: #e43f35;
+  --gold: #ffd166;
+  --orange: #dc7a1d;
+  --line: rgba(16, 23, 29, 0.16);
+  --mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --condensed: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
+  --sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: "Libre Baskerville", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: #d8dee2;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.book {
+  max-width: 980px;
+  margin: 0 auto;
+  background: var(--white);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.16);
+}
+
+.page {
+  padding: 72px 78px;
+  border-bottom: 1px solid var(--line);
+}
+
+.cover {
+  min-height: 1060px;
+  color: #f3fbff;
+  background:
+    linear-gradient(90deg, rgba(142, 231, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(142, 231, 255, 0.055) 1px, transparent 1px),
+    radial-gradient(circle at 84% 26%, rgba(0, 168, 200, 0.26), transparent 32%),
+    radial-gradient(circle at 16% 74%, rgba(228, 63, 53, 0.22), transparent 34%),
+    var(--dark);
+  background-size: 42px 42px, 42px 42px, auto, auto, auto;
+  display: grid;
+  align-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover::after {
+  content: "OEM DECISIONS / PARTS ACCESS / SOFTWARE LOCKS / MODEL YEARS / SERVICE LOGS";
+  display: none;
+  position: absolute;
+  left: 78px;
+  right: 78px;
+  bottom: 260px;
+  border: 1px solid rgba(142, 231, 255, 0.25);
+  padding: 14px 16px;
+  color: var(--cyan-soft);
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+}
+
+.kicker {
+  color: var(--cyan-soft);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.truck-kicker {
+  color: var(--gold);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: var(--condensed);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 0.98;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 34px;
+  max-width: 780px;
+  font-size: 86px;
+}
+
+.subtitle {
+  max-width: 760px;
+  margin: 28px 0 0;
+  font-family: var(--serif);
+  font-size: 27px;
+  line-height: 1.45;
+  color: rgba(243, 251, 255, 0.86);
+}
+
+.cover-card {
+  width: min(560px, 100%);
+  border: 1px solid rgba(142, 231, 255, 0.24);
+  background: rgba(6, 16, 22, 0.75);
+  padding: 24px;
+}
+
+.cover-art {
+  display: block;
+  width: min(560px, 100%);
+  margin: 36px 0 0;
+  border: 1px solid rgba(142, 231, 255, 0.24);
+  border-radius: 8px;
+}
+
+.cover-card strong {
+  display: block;
+  font-family: var(--condensed);
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.cover-card p {
+  margin: 8px 0 0;
+  color: rgba(243, 251, 255, 0.75);
+}
+
+.legal {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.toc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.toc-card, .callout, .check-card, .bonus-card {
+  border: 1px solid var(--line);
+  background: #f8fafb;
+  padding: 20px;
+}
+
+.toc-card h3 {
+  font-size: 29px;
+  color: var(--dark);
+}
+
+.toc-card ol {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.part {
+  background:
+    radial-gradient(circle at 84% 18%, rgba(0, 168, 200, 0.16), transparent 34%),
+    linear-gradient(135deg, var(--dark), var(--dark-2));
+  color: #f3fbff;
+}
+
+.part.truck {
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 209, 102, 0.055) 0 12px, transparent 12px 24px),
+    linear-gradient(135deg, #15110d, #241c14);
+}
+
+.part h2 {
+  margin-top: 14px;
+  max-width: 780px;
+  font-size: 66px;
+}
+
+.part p {
+  max-width: 720px;
+  color: rgba(243, 251, 255, 0.78);
+  font-size: 20px;
+}
+
+.chapter {
+  break-inside: avoid;
+}
+
+.chapter + .chapter {
+  margin-top: 34px;
+  padding-top: 34px;
+  border-top: 1px solid var(--line);
+}
+
+.chapter-number {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.chapter h2 {
+  font-size: 43px;
+}
+
+.chapter p {
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+}
+
+.triad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.triad div {
+  border: 1px solid var(--line);
+  padding: 15px;
+  background: #f8fafb;
+}
+
+.triad strong {
+  display: block;
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.triad span {
+  display: block;
+  margin-top: 8px;
+}
+
+.graphic {
+  margin: 30px 0;
+  break-inside: avoid;
+}
+
+.graphic img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.bonus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.bonus-card h3 {
+  font-size: 30px;
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.check-card {
+  min-height: 86px;
+}
+
+.check-card::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  border: 2px solid var(--cyan);
+  vertical-align: -2px;
+}
+
+.closing {
+  background: var(--dark);
+  color: #f3fbff;
+}
+
+.closing p {
+  color: rgba(243, 251, 255, 0.78);
+}
+
+@page {
+  size: 6in 9in;
+  margin: 0.42in;
+}
+
+@media print {
+  html, body {
+    background: white;
+  }
+
+  .book {
+    max-width: none;
+    box-shadow: none;
+  }
+
+  .page {
+    min-height: 8.16in;
+    padding: 0.42in;
+    break-after: page;
+    border-bottom: 0;
+  }
+
+  .cover {
+    min-height: 8.16in;
+    display: block;
+  }
+
+  .cover::after {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 0.22in;
+    font-size: 38pt;
+  }
+
+  .subtitle {
+    font-size: 16pt;
+    line-height: 1.36;
+  }
+
+  .cover-card {
+    display: none;
+  }
+
+  .cover-art {
+    width: 92%;
+    margin-top: 0.4in;
+  }
+
+  .cover-card strong {
+    font-size: 17pt;
+    line-height: 1.12;
+  }
+
+  .cover-card p {
+    font-size: 9.7pt;
+    line-height: 1.45;
+  }
+
+  .part h2 {
+    font-size: 43pt;
+  }
+
+  .chapter h2 {
+    font-size: 27pt;
+  }
+
+  .triad,
+  .toc-grid,
+  .bonus-grid,
+  .checklist {
+    grid-template-columns: 1fr;
+  }
+}

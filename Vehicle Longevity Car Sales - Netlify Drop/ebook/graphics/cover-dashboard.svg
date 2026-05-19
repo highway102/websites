@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Vehicle repairability dashboard graphic</title>
+  <desc id="desc">A clean automotive dashboard graphic with a vehicle outline, repairability gauge, and ownership checklist bars.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0c2029"/>
+      <stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+    <style>
+      .line{fill:none;stroke:#8ee7ff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#8ee7ff;stroke-width:3;stroke-linecap:round;stroke-opacity:.48}
+      .soft{fill:#8ee7ff;opacity:.14}
+      .red{fill:#e64338}
+      .text{font:700 30px 'IBM Plex Mono',Consolas,monospace;letter-spacing:4px;fill:#dff8ff}
+      .small{font:700 20px 'IBM Plex Mono',Consolas,monospace;letter-spacing:2px;fill:#8ee7ff}
+    </style>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="url(#panel)"/>
+  <path d="M70 70h760v380H70z" class="thin"/>
+  <path d="M148 287c25-58 58-90 98-96h233c43 0 79 35 108 96h52c27 0 49 22 49 49v29H119v-29c0-27 22-49 49-49h-20z" class="soft"/>
+  <path d="M148 287c25-58 58-90 98-96h233c43 0 79 35 108 96h72c18 0 33 15 33 33v45H115v-45c0-18 15-33 33-33z" class="line"/>
+  <path d="M273 191l-55 96h350l-89-96" class="line"/>
+  <circle cx="236" cy="365" r="49" fill="#071016" stroke="#8ee7ff" stroke-width="10"/>
+  <circle cx="585" cy="365" r="49" fill="#071016" stroke="#8ee7ff" stroke-width="10"/>
+  <path d="M692 143a84 84 0 1 1-48 152" class="thin"/>
+  <path d="M697 171a56 56 0 1 1-33 101" class="thin"/>
+  <path d="M692 227l66-44" class="line"/>
+  <circle cx="692" cy="227" r="12" class="red"/>
+  <text x="96" y="116" class="small">31 OWNER CHECKS</text>
+  <text x="96" y="155" class="text">REPAIRABILITY SCAN</text>
+  <path d="M96 420h130M260 420h96M390 420h160M584 420h84" class="thin"/>
+  <path d="M96 450h92M222 450h154M410 450h100M544 450h124" class="thin"/>
+</svg>

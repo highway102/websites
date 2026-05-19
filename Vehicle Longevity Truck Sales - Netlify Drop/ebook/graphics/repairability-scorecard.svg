@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Repairability scorecard</title>
+  <desc id="desc">A five-category scorecard for judging whether a vehicle will be easy or expensive to own long term.</desc>
+  <defs>
+    <style>
+      .k{font:700 22px 'IBM Plex Mono',Consolas,monospace;letter-spacing:2px;fill:#8ee7ff}
+      .h{font:800 58px 'Barlow Condensed',Arial,sans-serif;fill:#f4fbff}
+      .t{font:700 25px Inter,Arial,sans-serif;fill:#f4fbff}
+      .s{font:600 18px Inter,Arial,sans-serif;fill:#c8dde3}
+      .num{font:800 42px 'Barlow Condensed',Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#071016"/>
+  <path d="M0 0h1200v720H0z" fill="none" stroke="#8ee7ff" stroke-opacity=".2" stroke-width="24"/>
+  <text x="66" y="76" class="k">GRAPHIC 02 / REPAIRABILITY SCORE</text>
+  <text x="66" y="148" class="h">THE 5-POINT LONGEVITY FILTER</text>
+  <g transform="translate(70 210)">
+    <g>
+      <rect x="0" y="0" width="1010" height="72" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".26"/>
+      <rect x="0" y="0" width="805" height="72" fill="#00a8c8" opacity=".35"/>
+      <text x="24" y="45" class="t">Parts access</text><text x="930" y="48" class="num">8/10</text>
+    </g>
+    <g transform="translate(0 88)">
+      <rect x="0" y="0" width="1010" height="72" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".26"/>
+      <rect x="0" y="0" width="620" height="72" fill="#00a8c8" opacity=".35"/>
+      <text x="24" y="45" class="t">Independent diagnostics</text><text x="930" y="48" class="num">6/10</text>
+    </g>
+    <g transform="translate(0 176)">
+      <rect x="0" y="0" width="1010" height="72" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".26"/>
+      <rect x="0" y="0" width="710" height="72" fill="#63c17f" opacity=".38"/>
+      <text x="24" y="45" class="t">Known drivetrain history</text><text x="930" y="48" class="num">7/10</text>
+    </g>
+    <g transform="translate(0 264)">
+      <rect x="0" y="0" width="1010" height="72" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".26"/>
+      <rect x="0" y="0" width="420" height="72" fill="#e43f35" opacity=".48"/>
+      <text x="24" y="45" class="t">Dealer-only dependency</text><text x="930" y="48" class="num">4/10</text>
+    </g>
+  </g>
+  <text x="70" y="665" class="s">Rule: a vehicle with two weak categories needs a lower price, better records, or a different model year.</text>
+</svg>

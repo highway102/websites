@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071015"/>
+      <stop offset="0.58" stop-color="#10242b"/>
+      <stop offset="1" stop-color="#1d1512"/>
+    </linearGradient>
+    <linearGradient id="bookA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="1" stop-color="#193947"/>
+    </linearGradient>
+    <linearGradient id="bookB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a130e"/>
+      <stop offset="1" stop-color="#4a241b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g opacity="0.13" stroke="#8ee7ff" stroke-width="2">
+    <path d="M90 0v1200M210 0v1200M330 0v1200M450 0v1200M570 0v1200M690 0v1200M810 0v1200M930 0v1200M1050 0v1200"/>
+    <path d="M0 90h1200M0 210h1200M0 330h1200M0 450h1200M0 570h1200M0 690h1200M0 810h1200M0 930h1200M0 1050h1200"/>
+  </g>
+  <rect x="82" y="82" width="1036" height="1036" rx="34" fill="none" stroke="#8ee7ff" stroke-opacity="0.4" stroke-width="4"/>
+  <text x="110" y="172" fill="#8ee7ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7">220+ PAGE 2-EBOOK BUNDLE</text>
+  <text x="110" y="254" fill="#f5fbff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900">VEHICLE</text>
+  <text x="110" y="334" fill="#f5fbff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900">LONGEVITY</text>
+  <text x="110" y="402" fill="#e7edf0" font-family="Georgia, Times, serif" font-size="38">The Complete Owner Bundle</text>
+  <g transform="translate(170 472)">
+    <rect x="0" y="42" width="330" height="474" rx="18" fill="#03080a" opacity="0.55"/>
+    <rect x="34" y="0" width="330" height="474" rx="18" fill="url(#bookA)" stroke="#8ee7ff" stroke-opacity="0.48" stroke-width="4"/>
+    <rect x="72" y="42" width="254" height="158" rx="12" fill="#0b2028" stroke="#8ee7ff" stroke-opacity="0.34" stroke-width="3"/>
+    <path d="M105 154c21-52 47-78 78-78h86c33 0 60 28 82 78h22c17 0 31 14 31 31v26H78v-26c0-17 14-31 31-31h-4z" fill="#1f5060" stroke="#8ee7ff" stroke-width="7"/>
+    <circle cx="170" cy="216" r="37" fill="#071015" stroke="#8ee7ff" stroke-width="8"/>
+    <circle cx="326" cy="216" r="37" fill="#071015" stroke="#8ee7ff" stroke-width="8"/>
+    <text x="64" y="284" fill="#8ee7ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">VOLUME I</text>
+    <text x="64" y="336" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">BLACK</text>
+    <text x="64" y="386" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">BOOK</text>
+    <text x="64" y="430" fill="#d7eef5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">120+ pages</text>
+  </g>
+  <g transform="translate(612 520)">
+    <rect x="0" y="42" width="330" height="474" rx="18" fill="#03080a" opacity="0.55"/>
+    <rect x="34" y="0" width="330" height="474" rx="18" fill="url(#bookB)" stroke="#f28a6a" stroke-opacity="0.58" stroke-width="4"/>
+    <rect x="74" y="48" width="250" height="150" rx="12" fill="#21100d" stroke="#f28a6a" stroke-opacity="0.38" stroke-width="3"/>
+    <path d="M116 155h166M116 110h166M116 65h166" stroke="#f28a6a" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="116" cy="65" r="12" fill="#8ee7ff"/>
+    <circle cx="116" cy="110" r="12" fill="#8ee7ff"/>
+    <circle cx="116" cy="155" r="12" fill="#8ee7ff"/>
+    <text x="64" y="284" fill="#f28a6a" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">VOLUME II</text>
+    <text x="64" y="336" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">OWNERSHIP</text>
+    <text x="64" y="386" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">SECRETS</text>
+    <text x="64" y="430" fill="#ffe0d6" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">100+ pages</text>
+  </g>
+  <rect x="110" y="1030" width="980" height="74" rx="16" fill="#e63f35"/>
+  <text x="600" y="1080" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900">$97 VALUE · $24 TODAY · SAVE $10 VS SINGLES</text>
+</svg>

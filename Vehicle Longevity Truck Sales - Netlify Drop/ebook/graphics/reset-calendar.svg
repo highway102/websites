@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">90-day used vehicle reset</title>
+  <desc id="desc">A 90-day maintenance reset calendar for a used vehicle purchase.</desc>
+  <defs>
+    <style>
+      .k{font:700 21px 'IBM Plex Mono',Consolas,monospace;letter-spacing:2px;fill:#8ee7ff}
+      .h{font:800 56px 'Barlow Condensed',Arial,sans-serif;fill:#f4fbff}
+      .day{font:800 40px 'Barlow Condensed',Arial,sans-serif;fill:#fff}
+      .t{font:700 24px Inter,Arial,sans-serif;fill:#f4fbff}
+      .s{font:600 19px Inter,Arial,sans-serif;fill:#d3e8ef}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#071016"/>
+  <text x="70" y="76" class="k">GRAPHIC 04 / OWNER RESET</text>
+  <text x="70" y="145" class="h">THE FIRST 90 DAYS AFTER BUYING USED</text>
+  <g transform="translate(70 210)">
+    <rect x="0" y="0" width="320" height="360" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".3"/>
+    <rect x="350" y="0" width="320" height="360" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".3"/>
+    <rect x="700" y="0" width="320" height="360" fill="#10202a" stroke="#8ee7ff" stroke-opacity=".3"/>
+    <rect x="0" y="0" width="320" height="74" fill="#00a8c8" opacity=".34"/>
+    <rect x="350" y="0" width="320" height="74" fill="#63c17f" opacity=".34"/>
+    <rect x="700" y="0" width="320" height="74" fill="#e43f35" opacity=".34"/>
+    <text x="26" y="50" class="day">DAY 1-30</text>
+    <text x="376" y="50" class="day">DAY 31-60</text>
+    <text x="726" y="50" class="day">DAY 61-90</text>
+    <text x="26" y="125" class="t">Baseline</text>
+    <text x="26" y="166" class="s">Fluids, tires, battery,</text>
+    <text x="26" y="196" class="s">brakes, lights, leaks,</text>
+    <text x="26" y="226" class="s">spare/tire kit, records.</text>
+    <text x="376" y="125" class="t">Stabilize</text>
+    <text x="376" y="166" class="s">Filters, alignment,</text>
+    <text x="376" y="196" class="s">cooling inspection,</text>
+    <text x="376" y="226" class="s">software/recall check.</text>
+    <text x="726" y="125" class="t">Plan</text>
+    <text x="726" y="166" class="s">Service calendar,</text>
+    <text x="726" y="196" class="s">parts research, quote</text>
+    <text x="726" y="226" class="s">triage, sell/keep math.</text>
+  </g>
+</svg>

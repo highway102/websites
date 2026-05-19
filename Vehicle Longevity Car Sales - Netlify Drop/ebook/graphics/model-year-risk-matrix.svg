@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Model-year risk matrix</title>
+  <desc id="desc">A matrix showing that first-year redesigns carry higher risk than proven late-cycle model years.</desc>
+  <defs>
+    <style>
+      .k{font:700 21px 'IBM Plex Mono',Consolas,monospace;letter-spacing:2px;fill:#ffd166}
+      .h{font:800 54px 'Barlow Condensed',Arial,sans-serif;fill:#fff8e8}
+      .axis{font:700 18px 'IBM Plex Mono',Consolas,monospace;letter-spacing:1px;fill:#fff0c7}
+      .cell{font:800 30px 'Barlow Condensed',Arial,sans-serif;fill:#fff}
+      .body{font:600 19px Inter,Arial,sans-serif;fill:#f1dfbf}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#15110d"/>
+  <path d="M0 0h1200v720H0z" fill="none" stroke="#dc7a1d" stroke-opacity=".24" stroke-width="24"/>
+  <text x="70" y="76" class="k">GRAPHIC 03 / MODEL-YEAR RISK</text>
+  <text x="70" y="145" class="h">THE REDESIGN VS. PROVEN-YEAR RULE</text>
+  <g transform="translate(180 225)">
+    <line x1="0" y1="360" x2="780" y2="360" stroke="#ffd166" stroke-width="3"/>
+    <line x1="0" y1="360" x2="0" y2="0" stroke="#ffd166" stroke-width="3"/>
+    <text x="250" y="414" class="axis">MODEL CYCLE AGE</text>
+    <text x="-130" y="190" class="axis" transform="rotate(-90 -130 190)">OWNERSHIP RISK</text>
+    <rect x="22" y="35" width="210" height="116" fill="#e43f35" opacity=".75"/>
+    <rect x="260" y="92" width="210" height="116" fill="#dc7a1d" opacity=".76"/>
+    <rect x="500" y="205" width="210" height="116" fill="#63c17f" opacity=".62"/>
+    <text x="48" y="98" class="cell">YEAR 1</text>
+    <text x="45" y="130" class="body">new platform</text>
+    <text x="288" y="154" class="cell">MID-CYCLE</text>
+    <text x="286" y="186" class="body">bugs known</text>
+    <text x="528" y="266" class="cell">LATE RUN</text>
+    <text x="526" y="298" class="body">best data</text>
+    <path d="M55 70 C250 110, 430 165, 665 250" fill="none" stroke="#fff8e8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="665" class="body">A cheap first-year redesign can cost more than a pricier late-cycle vehicle with known fixes and better parts availability.</text>
+</svg>

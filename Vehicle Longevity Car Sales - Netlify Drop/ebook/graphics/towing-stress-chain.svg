@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Towing stress chain</title>
+  <desc id="desc">A chain diagram showing how payload, heat, transmission, brakes, and tires combine under towing load.</desc>
+  <defs>
+    <style>
+      .k{font:700 21px 'IBM Plex Mono',Consolas,monospace;letter-spacing:2px;fill:#ffd166}
+      .h{font:800 56px 'Barlow Condensed',Arial,sans-serif;fill:#fff8e8}
+      .box{fill:#241c14;stroke:#ffd166;stroke-opacity:.38;stroke-width:3}
+      .t{font:800 33px 'Barlow Condensed',Arial,sans-serif;fill:#fff8e8}
+      .s{font:600 18px Inter,Arial,sans-serif;fill:#f1dfbf}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#15110d"/>
+  <path d="M0 0h1200v720H0z" fill="none" stroke="#dc7a1d" stroke-opacity=".25" stroke-width="24"/>
+  <text x="70" y="76" class="k">GRAPHIC 05 / TRUCK LOAD CHAIN</text>
+  <text x="70" y="132" class="h">TOWING FAILS AS A SYSTEM</text>
+  <text x="70" y="198" class="h">NOT A SINGLE PART</text>
+  <g transform="translate(80 250)">
+    <rect class="box" x="0" y="0" width="190" height="160"/>
+    <rect class="box" x="215" y="0" width="190" height="160"/>
+    <rect class="box" x="430" y="0" width="190" height="160"/>
+    <rect class="box" x="645" y="0" width="190" height="160"/>
+    <rect class="box" x="860" y="0" width="190" height="160"/>
+    <path d="M190 80h25M405 80h25M620 80h25M835 80h25" stroke="#ffd166" stroke-width="8" stroke-linecap="round"/>
+    <text x="25" y="66" class="t">PAYLOAD</text>
+    <text x="22" y="102" class="s">tongue weight</text>
+    <text x="237" y="66" class="t">HEAT</text>
+    <text x="237" y="102" class="s">cooling margin</text>
+    <text x="455" y="66" class="t">TRANS</text>
+    <text x="455" y="102" class="s">fluid + gearing</text>
+    <text x="670" y="66" class="t">BRAKES</text>
+    <text x="670" y="102" class="s">stopping reserve</text>
+    <text x="884" y="66" class="t">TIRES</text>
+    <text x="884" y="102" class="s">load rating</text>
+  </g>
+  <text x="80" y="605" class="s">A truck can have enough engine and still be the wrong tow rig if payload, cooling, brakes, or tires are already near the edge.</text>
+</svg>
