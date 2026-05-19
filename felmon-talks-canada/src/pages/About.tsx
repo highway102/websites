@@ -32,8 +32,8 @@ export default function About() {
           <figure className="relative">
             <span aria-hidden className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-signal z-10" />
             <span aria-hidden className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-signal z-10" />
-            <div className="aspect-[4/5] w-full bg-steel overflow-hidden border border-paper/10">
-              <img src={SITE.heroImage} alt={SITE.name} className="w-full h-full object-cover object-center" />
+            <div className="aspect-[4/5] w-full bg-ink overflow-hidden border border-paper/10">
+              <img src={SITE.heroImage} alt={SITE.name} className="w-full h-full object-cover object-[center_12%]" />
             </div>
             <figcaption className="mt-4 flex justify-between font-mono text-[11px] uppercase tracking-[0.18em] text-paper/60">
               <span>{SITE.name}</span>

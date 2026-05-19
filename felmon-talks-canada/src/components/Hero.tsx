@@ -64,11 +64,11 @@ export default function Hero() {
               <span aria-hidden className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-signal z-10" />
               <span aria-hidden className="absolute -bottom-3 -right-3 w-10 h-10 border-b-2 border-r-2 border-signal z-10" />
 
-              <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:mx-0 lg:ml-auto overflow-hidden bg-steel">
+              <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:mx-0 lg:ml-auto overflow-hidden bg-ink">
                 <img
                   src={SITE.heroImage}
                   alt={`${SITE.name} - ${SITE.role}`}
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-[center_12%]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/30 to-transparent" />
                 <div className="absolute bottom-0 inset-x-0 p-5 pt-12">

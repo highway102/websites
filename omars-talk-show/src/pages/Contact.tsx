@@ -27,7 +27,7 @@ export default function Contact() {
               Send a note for interviews, speaking, sourced tips, or commissioned analysis - I read every message and respond within two to three business days.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-ink/60 max-w-xl">
-              Direct email below · or use the form
+              Business inquiries: {SITE.email} · or use the form
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Contact() {
         <aside className="md:col-span-5 md:pl-12 md:border-l md:border-ink/15 space-y-14">
           {!isPlaceholder(SITE.email) && (
             <div>
-              <p className="eyebrow mb-4">Direct</p>
+              <p className="eyebrow mb-4">Business Inquiries</p>
               <a
                 href={`mailto:${SITE.email}`}
                 className="group inline-flex items-baseline gap-3 font-display font-semibold text-2xl md:text-3xl text-ink tracking-[-0.02em] break-all"
@@ -49,6 +49,9 @@ export default function Contact() {
                 <span className="link-underline">{SITE.email}</span>
                 <ArrowUpRight size={20} strokeWidth={2} className="shrink-0 opacity-60 group-hover:opacity-100" />
               </a>
+              <p className="mt-3 text-ink/70 text-sm leading-relaxed font-sans max-w-sm">
+                Use this email for partnerships, sponsorships, interviews, and other business requests.
+              </p>
             </div>
           )}
 

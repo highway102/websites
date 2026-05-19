@@ -76,6 +76,24 @@ export default function Hero() {
                 Get in touch
               </Link>
             </div>
+
+            <div className="mt-8 max-w-2xl border border-signal/35 bg-paper/8 backdrop-blur-sm">
+              <div className="px-5 py-4 md:px-6 md:py-5">
+                <p className="font-mono text-[10px] md:text-[11px] uppercase tracking-[0.22em] text-signal font-semibold">
+                  Business Inquiries
+                </p>
+                <a
+                  href={`mailto:${SITE.email}`}
+                  className="mt-2 inline-flex items-center gap-3 font-display text-2xl md:text-3xl font-semibold tracking-[-0.02em] text-paper break-all hover:text-signal transition-colors"
+                >
+                  <span className="link-underline">{SITE.email}</span>
+                  <ArrowRight size={18} strokeWidth={2} className="-rotate-45 shrink-0" />
+                </a>
+                <p className="mt-2 text-sm md:text-base text-paper/70 font-sans">
+                  Contact this address for sponsorships, partnerships, interviews, and other business requests.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Right — portrait */}
