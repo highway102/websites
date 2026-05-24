@@ -43,7 +43,7 @@ export const SITE = {
 
   credentials: [
     "YouTube channel joined November 10, 2016",
-    "Latest uploads synced from the public YouTube feed on May 11, 2026",
+    "Latest uploads synced from the public YouTube channel page on May 21, 2026",
     "Hosted by Evan Mercer in Nashville, TN",
     "Independent commentary channel published on YouTube",
   ],
@@ -63,8 +63,62 @@ export type Video = {
   summary?: string[]
 }
 
-// Latest uploads pulled from the public YouTube feed on May 11, 2026.
+// Latest uploads pulled from the public YouTube channel page on May 21, 2026.
 export const VIDEOS: Video[] = [
+  {
+    id: "uXsQv_9vSfA",
+    title: "Mamdani's OWN DONORS TURN on Him as They LAUNCH A $50M Anti Mamdani Campaign",
+    date: "May 21, 2026",
+    summary: [
+      "This latest upload frames a donor revolt as the real pressure point in Zohran Mamdani's political coalition, with the title leaning on money, backlash, and the optics of elite abandonment.",
+      "On the site, it reads as a campaign-power story about how funding networks can become a public signal that a message is failing, especially when opposition spending arrives fast and loud.",
+    ],
+  },
+  {
+    id: "XxpzepJjcOY",
+    title: "Newsom FREAKS OUT After His SICKENING $250 BILLION Fraud Gets EXPOSED",
+    date: "May 20, 2026",
+    summary: [
+      "This episode is positioned as a high-dollar accountability story, with the title presenting alleged fraud exposure as both a political threat and a test of Gavin Newsom's public composure.",
+      "For the archive, the summary frames it as a breakdown of scandal language, fiscal distrust, and the way giant numbers are used to turn budget criticism into a full-blown legitimacy fight.",
+    ],
+  },
+  {
+    id: "xz-K53cHZo4",
+    title: "Mamdani's INSANE $500 MILLION Tax PLAN BLOWS UP as Billionaires FLEE NYC",
+    date: "May 15, 2026",
+    summary: [
+      "This upload centers on a tax proposal pitched as politically explosive, with the title arguing that the plan triggered elite panic and accelerated a flight narrative around New York wealth.",
+      "On the website, it plays as a city-power segment about taxation, business confidence, and the way campaign economics quickly spill into broader arguments about who can afford to stay.",
+    ],
+  },
+  {
+    id: "l5RTbp502WM",
+    title: "Brandon Johnson THREATENS Chicago SHUTDOWN as $1.2 BILLION Crisis EXPLODES",
+    date: "May 14, 2026",
+    summary: [
+      "This segment is framed as a municipal crisis story, tying Brandon Johnson to shutdown pressure and using the billion-dollar figure to intensify the sense of civic breakdown.",
+      "For the archive, it reads as a city-governance briefing about fiscal strain, executive leverage, and what happens when budget conflict becomes an open threat hanging over daily life.",
+    ],
+  },
+  {
+    id: "V8ztxAcQTgo",
+    title: "Trump's HEALTH COLLAPSES as HE SECRETLY SKIPS 2026 PHYSICAL!",
+    date: "May 13, 2026",
+    summary: [
+      "This episode turns a skipped physical into a larger political vulnerability, with the title framing health secrecy as the story rather than just another campaign rumor cycle.",
+      "The site summary treats it as a leadership-transparency story about optics, concealment, and how personal fitness questions can quickly become part of the national power narrative.",
+    ],
+  },
+  {
+    id: "1Rgj6EPQr6I",
+    title: "Trump has DISASTER SPEECH before TINY CROWD…in PHOENIX!",
+    date: "May 11, 2026",
+    summary: [
+      "This upload is positioned as a momentum check, using the speech and the crowd size in Phoenix to argue that the performance itself exposed weakness rather than strength.",
+      "For the website, it works as a rally-politics story about stagecraft, enthusiasm, and how turnout optics can undercut the message a candidate is trying to project.",
+    ],
+  },
   {
     id: "qi_s46xgByU",
     title: "Mamdani's INSANE Iran Statement BACKFIRES as Jewish New Yorkers REVOLT",
@@ -81,60 +135,6 @@ export const VIDEOS: Video[] = [
     summary: [
       "This episode is positioned as an accountability story built around a damaging audit and the scale of an alleged food-fraud scheme linked in the title to Ilhan Omar.",
       "For the archive, the summary frames it as a direct breakdown of oversight failure, political exposure, and how audit language can become campaign-season ammunition.",
-    ],
-  },
-  {
-    id: "UCMFt9i0znE",
-    title: "Ilhan Omar BUSTED Putting 'SOMALIA FIRST' as DAMNING Report EXPOSES Clan Ties",
-    date: "May 5, 2026",
-    summary: [
-      "This upload is framed as a report-driven challenge to Ilhan Omar's public positioning, with the title leaning on questions of loyalty, factional ties, and political image.",
-      "On the site, it plays as a culture-and-power segment about identity politics, narrative framing, and how charged language is used to intensify a headline.",
-    ],
-  },
-  {
-    id: "i9z48B0s94I",
-    title: "JD Vance Drops BOMBSHELL on Ilhan Omar... 'She COMMITTED Immigration FRAUD'",
-    date: "May 4, 2026",
-    summary: [
-      "This episode focuses on a high-voltage allegation from JD Vance, with the title presenting it as a legal and political escalation aimed straight at Ilhan Omar.",
-      "The site summary treats it as a campaign-conflict story about accusation as strategy, media amplification, and the pressure that comes with headline-level claims.",
-    ],
-  },
-  {
-    id: "dnRZvAi3aKY",
-    title: "Newsom Sues Trump 50 Times While California BURNS... State Auditor Drops DEVASTATING Report",
-    date: "May 3, 2026",
-    summary: [
-      "This segment pairs Gavin Newsom's legal fights with California's ongoing crises, using a state audit in the title to argue that the political messaging no longer matches the results.",
-      "For the website, the summary frames it as a state-power briefing about governance, public trust, and what happens when administrative failures become impossible to spin away.",
-    ],
-  },
-  {
-    id: "40ytHZcgCTs",
-    title: "Newsom's BOMBSHELL Lie EXPOSED... He Spent $37 BILLION on Homeless as Crisis Gets WORSE",
-    date: "Apr 30, 2026",
-    summary: [
-      "This upload appears to focus on homelessness spending in California, with the title positioning it as a blunt critique of results, messaging, and scale.",
-      "In the archive, it reads as a policy-failure story about public money, civic deterioration, and the widening gap between press conferences and lived reality.",
-    ],
-  },
-  {
-    id: "GpB2W_Io8Yw",
-    title: "Trump LOSES CONTROL and THREATENS to JAIL JOURNALISTS",
-    date: "Apr 28, 2026",
-    summary: [
-      "This episode is framed as a press-freedom and executive-power clash, with the title highlighting a moment where Trump's rhetoric toward journalists crossed into open threat.",
-      "The site summary presents it as a media-power story about intimidation, public spectacle, and the democratic stakes of treating reporters like enemies.",
-    ],
-  },
-  {
-    id: "IQswD53LBK4",
-    title: "Trump DETONATES at Reporter Over SIMPLE Iran Question",
-    date: "Apr 25, 2026",
-    summary: [
-      "This segment turns on a tense exchange with a reporter, using the Iran question in the title to frame the moment as one where pressure broke through the performance.",
-      "For the archive, it works as a tighter clip-driven analysis of temperament, media confrontation, and how off-script reactions often become the real story.",
     ],
   },
 ]

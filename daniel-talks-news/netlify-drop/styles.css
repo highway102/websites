@@ -84,6 +84,7 @@ a {
   width: 46px;
   height: 46px;
   object-fit: cover;
+  object-position: center center;
   border-radius: 50%;
   border: 1px solid var(--line-strong);
 }
@@ -242,9 +243,9 @@ a {
 
 .desk-stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0;
-  max-width: 690px;
+  max-width: 420px;
   margin: 36px 0 0;
   border: 1px solid var(--line);
 }
@@ -308,7 +309,7 @@ a {
   height: 100%;
   min-height: 640px;
   object-fit: cover;
-  object-position: 62% center;
+  object-position: center center;
   filter: saturate(1.12) contrast(1.08);
 }
 
@@ -364,6 +365,7 @@ a {
   width: 76px;
   height: 76px;
   object-fit: cover;
+  object-position: center center;
   border-radius: 50%;
   border: 1px solid var(--line-strong);
 }
@@ -805,7 +807,7 @@ a {
 
   .hero__banner {
     min-height: 430px;
-    object-position: 62% center;
+    object-position: center center;
   }
 
   .media__footer {

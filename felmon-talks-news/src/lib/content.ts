@@ -65,78 +65,78 @@ export type Video = {
 
 const CTA = "Subscribe to Felmon Talks News on YouTube for more breakdowns like this and keep the red desk in your feed."
 
-// Latest uploads pulled from the Felmon Talks News YouTube channel feed on May 11, 2026.
+// Latest uploads pulled from the Felmon Talks News YouTube channel feed on May 21, 2026.
 export const VIDEOS: Video[] = [
   {
-    id: "mWPrvnCHocY",
-    title: "Ilhan Omar PANICS as DOJ Drops BRUTAL NEWS on Her Citizenship Fraud Investigation",
-    date: "May 10, 2026",
+    id: "inGJtvAyMQg",
+    title: "Mamdani's ANTI-ICE Stunt BACKFIRES INSTANTLY as Migrant's CRIMINAL Past EXPOSED",
+    date: "May 21, 2026",
     summary: [
-      "This episode is framed as a legal-scrutiny story, connecting financial disclosure questions, a Minnesota fraud case, and a new federal spotlight around Ilhan Omar.",
-      "For the site, it works as a high-pressure accountability piece focused on records, public confrontation, and what happens when multiple investigations converge at once. " + CTA,
+      "This lead story frames a chaotic immigration confrontation in New York as a test of mayoral judgment, public safety, and what happens when political messaging outruns the underlying facts.",
+      "On the site, it plays as a fast-moving accountability piece focused on Zohran Mamdani, federal enforcement, and the consequences of reacting before the record is fully clear. " + CTA,
     ],
   },
   {
-    id: "zogtWxBj3oE",
-    title: "Newsom CAUGHT Over $180 BILLION Fraud As His Presidential Run COLLAPSES",
-    date: "May 9, 2026",
+    id: "Uvi8kUVBmZ0",
+    title: "Newsom CAUGHT Blowing $19 MILLION on PROPAGANDA… as California Economy COLLAPSES",
+    date: "May 20, 2026",
     summary: [
-      "This segment turns state audits, federal indictments, and public spending failures into a broader argument about leadership breakdown in California.",
-      "On the site, it reads as a sharp governance story about vanished funds, institutional oversight, and the political cost of large-scale fraud claims landing during a national rise. " + CTA,
+      "This episode turns a state-funded PR contract into a broader argument about image management, public money, and a governor prioritizing narrative control during fiscal strain.",
+      "For the archive, it works as a California governance story about deficits, media strategy, and the political optics of spending millions to reshape a collapsing message. " + CTA,
     ],
   },
   {
-    id: "ldXNThDh7zU",
-    title: "Chicago Mayor Brandon Johnson COLLAPSES to 6% Approval... Officially the WORST Mayor in US History",
-    date: "May 8, 2026",
+    id: "q-VsrFo-j5s",
+    title: "Democrat BUSTED Stealing $500,000 in COVID FUNDS… QUITS Right Before HEARING",
+    date: "May 19, 2026",
     summary: [
-      "This episode is built around a dramatic collapse in approval, using polling, city budget pressure, and open revolt from local leadership to frame the story.",
-      "For the archive, it functions as a Chicago-centered breakdown of governing failure, voter backlash, and how fast a mayor can lose political ground. " + CTA,
+      "This segment is built as a political-corruption breakdown, tracing alleged misuse of pandemic relief money into a wider story about ethics, exposure, and institutional failure.",
+      "On the site, it reads as an accountability file about public funds, congressional scandal, and the scramble that follows when resignation lands before public scrutiny. " + CTA,
     ],
   },
   {
-    id: "ZLxoud_pucI",
-    title: "CNN Host TURNS on Democrats and Admits Democrats are in FULL COLLAPSE on LIVE TV",
-    date: "May 7, 2026",
+    id: "XYprAu1ycBo",
+    title: "Nancy Pelosi Dealt CRUSHING BLOW… Democrats ABANDON Her as California Crisis Explodes",
+    date: "May 18, 2026",
     summary: [
-      "This segment uses live-TV polling analysis and party infighting to argue that Democratic leadership is facing a deeper credibility collapse with independents and its own base.",
-      "On the site, it plays as a media-and-politics crossover story where on-air data becomes the launch point for a larger argument about party weakness. " + CTA,
+      "This episode uses Pelosi's exit to open a wider argument about California decline, party succession, and the tension between elite power and public frustration.",
+      "For the archive, it functions as a political-transition story where retirement, party fracture, and long-running state grievances all collide in one frame. " + CTA,
     ],
   },
   {
-    id: "0w-BSq7DhKc",
-    title: "$600 MILLION in California Fraud Just Got EXPOSED as 447 Fake Companies Get SHUT DOWN",
-    date: "May 6, 2026",
+    id: "s1ncIqLSELs",
+    title: "Mamdani FREAKS OUT After Being FORCED to Admit Free Buses ARE GONE… Voters Demand RESIGNATION",
+    date: "May 17, 2026",
     summary: [
-      "This episode is framed around enforcement and fallout, using the shutdown of hundreds of fake companies to show the scale of alleged fraud in California.",
-      "For the archive, it works as a clean accountability story about public money, enforcement action, and the wider trust problem that follows fraud headlines. " + CTA,
+      "This segment frames a campaign promise unraveling in real time, using transit policy and budget pressure to show how idealistic pledges break against governing constraints.",
+      "On the site, it works as a city-politics story about voter expectations, policy retreat, and the backlash that builds when signature promises start disappearing. " + CTA,
     ],
   },
   {
-    id: "QJXEzMA1Lqo",
-    title: "Mamdani PANICS After Own Party TURNS on Him Over $5.4 BILLION Disaster",
-    date: "May 5, 2026",
+    id: "xiCQ80RW5jk",
+    title: "Mamdani HUMILIATED as His OWN Voters SUE Him in COURT Over INSANE Order",
+    date: "May 16, 2026",
     summary: [
-      "This segment is positioned as a party-fracture story, with budget pressure and Democratic infighting driving the central conflict around Mamdani.",
-      "On the site, it reads as a fast-turn local crisis story that scales into a wider argument about fiscal pressure, coalition strain, and political exposure. " + CTA,
+      "This episode turns a neighborhood lawsuit into a larger story about executive overreach, procedural shortcuts, and a base that is no longer willing to stay quiet.",
+      "For the archive, it reads as a governance-pressure story where legal resistance, housing policy, and coalition breakdown all sharpen the stakes around City Hall. " + CTA,
     ],
   },
   {
-    id: "lLdjm39HrmE",
-    title: "Mamdani's OWN PARTY TURNS on Him as Bronx Councilman DECLARES WAR",
-    date: "May 4, 2026",
+    id: "3DSoA5pD4cU",
+    title: "Newsom CAUGHT Hiding $2 BILLION Budget DISASTER From California for MONTHS",
+    date: "May 15, 2026",
     summary: [
-      "This episode leans into open political conflict, using an internal Democratic clash in New York to frame the story as a public power struggle.",
-      "For the archive, it reads as commentary on coalition breakdown, local escalation, and the way intraparty fights become headline events in real time. " + CTA,
+      "This segment is built around concealment and fiscal fallout, arguing that a multi-billion-dollar budget error became more damaging because it stayed hidden during a critical stretch.",
+      "On the site, it works as a California accountability piece about public disclosure, budget math, and the erosion of trust when leaders stay silent too long. " + CTA,
     ],
   },
   {
-    id: "V99tNqD3kx4",
-    title: "Billionaire KICKS Democrat OUT of His Mansion and Says He's DONE With the Party Forever",
-    date: "May 3, 2026",
+    id: "tHLVP7UzrSI",
+    title: "Newsom CAUGHT Using $1.5 MILLION of PAC Money to Buy His OWN Book… 2/3 of ALL Sales",
+    date: "May 14, 2026",
     summary: [
-      "This segment is framed as a donor-break story, using a high-profile rupture to explore frustration with party direction and political identity.",
-      "On the site, it works as a commentary piece about elite disillusionment, public symbolism, and the spectacle that follows when political alliances break in public. " + CTA,
+      "This episode turns book-sales optics into a campaign-finance story, using donor money and self-promotion to question how political legitimacy gets manufactured.",
+      "For the archive, it reads as a media-and-money breakdown focused on PAC spending, branding, and the blurred line between promotion and public persuasion. " + CTA,
     ],
   },
 ]

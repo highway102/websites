@@ -60,57 +60,93 @@ export type Video = {
 }
 
 // Latest uploads from Felmon's Talk Show, newest first.
-// Dates reflect the channel's published upload date.
+// Dates reflect the channel's YouTube published upload date.
 export const VIDEOS: Video[] = [
   {
     id: "ivKdV_VVCBQ",
     title: "Trump LOSES IT as 8 MILLION PROTEST Against Him Nationwide",
-    date: "May 1, 2026",
+    date: "Apr 30, 2026",
   },
   {
     id: "qTSBkNyPCm0",
     title: "White House SCRUBS VIDEO of Trump's MOST OFFENSIVE MOMENT",
-    date: "Apr 28, 2026",
+    date: "Apr 27, 2026",
   },
   {
     id: "PmCq_gOC_OU",
     title: "Trump FALLS ASLEEP During His OWN WAR Briefings",
-    date: "Apr 27, 2026",
+    date: "Apr 24, 2026",
   },
   {
     id: "Bzk-EJED4Ik",
     title: "JD Vance ACCIDENTALLY ADMITS Trump is a TERRORIST on Fox",
-    date: "Apr 27, 2026",
+    date: "Apr 23, 2026",
   },
   {
     id: "4oMj4V8FOgI",
     title:
       "Trump PANICS as His Ceasefire COLLAPSES INSTANTLY and Iran CATCHES Him Lying About the DEAL",
-    date: "Apr 27, 2026",
+    date: "Apr 22, 2026",
   },
   {
     id: "adIWGW1UnVM",
     title:
       "Vance FREEZES UP After Accidentally EXPOSING That Trump's Ceasefire Is Already FALLING APART",
-    date: "Apr 27, 2026",
+    date: "Apr 20, 2026",
   },
   {
     id: "p_MGIc14PFI",
     title:
       "Trump STORMS OUT of Supreme Court After His OWN Picks HUMILIATE Him and He LOSES IT On Truth Social",
-    date: "Apr 20, 2026",
+    date: "Apr 19, 2026",
   },
   {
     id: "j3q_5m6ANfs",
     title:
       "Trump LOSES CONTROL as Senate REFUSES To Stop His ILLEGAL WAR and Only ONE Republican Has The Guts!",
-    date: "Apr 20, 2026",
+    date: "Apr 18, 2026",
   },
   {
     id: "69ANmt1plOw",
     title:
       "FURIOUS World Leaders FREEZE OUT Trump as His NATO THREATS Leave America COMPLETELY ALONE",
-    date: "Apr 20, 2026",
+    date: "Apr 17, 2026",
+  },
+  {
+    id: "qntcOEjOXOA",
+    title:
+      "Trump CRASHES OUT as His Record-Breaking Shutdown FORCES 500 TSA Workers To QUIT",
+    date: "Apr 16, 2026",
+  },
+  {
+    id: "B59XX5Cejjw",
+    title:
+      "All HELL BREAKS LOOSE as Nobel Economist CALLS Trump's War Trades TREASON After $580 MILLION SPIKE",
+    date: "Apr 15, 2026",
+  },
+  {
+    id: "w5y2X0gbz7o",
+    title:
+      "FURIOUS Supreme Court SHUTS DOWN Trump's Lawyer as He STORMS OUT of His OWN HISTORIC HEARING",
+    date: "Apr 14, 2026",
+  },
+  {
+    id: "exdIvQGfYnA",
+    title:
+      "Trump ATTACKS His OWN Party After Only ONE Republican Breaks On His ILLEGAL WAR VOTE",
+    date: "Apr 13, 2026",
+  },
+  {
+    id: "AMLudFGUKUE",
+    title:
+      "Trump COLLAPSES as Doctors EXPOSE His DEMENTIA Signs While He Claims He PASSED Every TEST",
+    date: "Apr 12, 2026",
+  },
+  {
+    id: "yS4QkhegaAg",
+    title:
+      "Trump PANICS and THREATENS To ABANDON NATO as Allies REFUSE To Join His WAR",
+    date: "Apr 11, 2026",
   },
 ]
 

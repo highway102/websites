@@ -16,7 +16,7 @@ export const SITE = {
   email: 'juliantalks@gmail.com',
   location: 'Toronto, Ontario',
   joinedDate: 'Joined Mar 29, 2026',
-  totalVideos: 'Recent uploads refreshed May 11, 2026',
+  totalVideos: 'Recent uploads refreshed May 21, 2026',
   avatarImage: '/julian-avatar.png',
   heroImage: '/julian-headshot.png',
 
@@ -52,7 +52,7 @@ export const SITE = {
   credentials: [
     'Host, Julian Talks Canada - YouTube',
     'Toronto-based Canadian political commentary',
-    'Recent public uploads refreshed from the YouTube channel feed on May 11, 2026',
+    'Recent public uploads refreshed from the YouTube channel feed on May 21, 2026',
   ],
 
   social: {
@@ -84,6 +84,17 @@ function buildVideoSummary(video: RawVideo) {
 }
 
 const rawVideos: RawVideo[] = [
+  {
+    id: 'BZ6rp1Jeoi8',
+    title:
+      'Alberta Just OFFICIALLY HANDED 300,000 SEPARATION SIGNATURES To Elections Alberta - Carney IN PANIC',
+    date: 'May 15, 2026',
+  },
+  {
+    id: 'qHqASuEuW6s',
+    title: 'Canada STUNNED As BANKS SEIZED Thousands Of Homes And EVICTED Families OVERNIGHT!',
+    date: 'May 13, 2026',
+  },
   {
     id: 'lhihdioaw6M',
     title: 'Canada EXPLODES As Bank Of Canada DROPS STAGFLATION BOMBSHELL - THIS IS BAD!',
@@ -131,11 +142,6 @@ const rawVideos: RawVideo[] = [
     id: 't6NBdiu65gw',
     title: "Canada FREAKS OUT After Carney SUSPENDS Fuel Tax - But Critics Say It's TOO LITTLE TOO LATE!",
     date: 'Apr 19, 2026',
-  },
-  {
-    id: 'TTtGWfW754s',
-    title: 'Canada ERUPTS As 140,000 Canadians Go BANKRUPT!',
-    date: 'Apr 10, 2026',
   },
 ]
 
