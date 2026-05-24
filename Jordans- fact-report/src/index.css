@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 35% 3%;
+    --foreground: 96 33% 95%;
+    --card: 120 24% 7%;
+    --card-foreground: 96 33% 95%;
+    --popover: 120 24% 7%;
+    --popover-foreground: 96 33% 95%;
+    --primary: 96 33% 95%;
+    --primary-foreground: 120 35% 3%;
+    --secondary: 120 18% 10%;
+    --secondary-foreground: 96 33% 95%;
+    --muted: 120 18% 10%;
+    --muted-foreground: 96 11% 68%;
+    --accent: 98 89% 55%;
+    --accent-foreground: 120 35% 3%;
+    --destructive: 0 72% 48%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 118 18% 16%;
+    --input: 118 18% 16%;
+    --ring: 98 89% 55%;
+    --radius: 0rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01", "ss02";
+    background-image:
+      radial-gradient(circle at top left, rgba(116, 242, 41, 0.14), transparent 30%),
+      radial-gradient(circle at top right, rgba(116, 242, 41, 0.1), transparent 24%),
+      linear-gradient(180deg, #010401 0%, #071006 100%);
+  }
+  h1, h2, h3, h4, h5 {
+    @apply font-sans tracking-[-0.02em] text-ink;
+    font-weight: 600;
+  }
+  ::selection {
+    background: #74F229;
+    color: #041003;
+  }
+}
+
+@layer utilities {
+  .container-edge {
+    @apply mx-auto w-full max-w-[1440px] px-5 md:px-8 lg:px-12;
+  }
+  .rule {
+    @apply border-t border-paper/15;
+  }
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.15em] text-paper/70;
+  }
+  .display {
+    font-feature-settings: "ss01", "ss02", "ss05";
+    letter-spacing: -0.04em;
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.3s ease;
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+  .marquee {
+    animation: marquee 40s linear infinite;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
